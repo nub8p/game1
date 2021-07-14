@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <img src="./title.png" width=60%>
+    <title>Book Title Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./book.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./book.js"></script>
+</head>
+<body>
+    <div class="gbox">
+        <div class="start" style="display: none;">
+            <br>
+            <img src="./start.png" width=70%>
+            <h3>책의 앞 글자를 보고 알맞은 사자성어를 선택하세요!</h3>
+            <h4 class="str_btn">start</h4>
+        </div>
+
+        <div class="problem1" style="display: none;">
+            <br>
+            <h2>어떤 사자성어가 숨겨져 있을까요?</h2>
+            <table width= 100% align ="center">
+                <tr>
+                    <td><img src="./동상이몽4.png" width= 100%/></td>
+                    <td><img src="./동상이몽6.png" width= 100%/></td>
+                    <td><img src="./동상이몽2.png" width= 100%/></td>
+                    <td><img src="./동상이몽5.png" width= 100%/></td>
+                    <td><img src="./동상이몽3.png" width= 100%/></td>
+                    <td><img src="./동상이몽1.png" width= 100%/></td>
+               </tr>
+            </table>
+            <ul id="answers">
+                <li><h3>동상이몽</h3></li>
+                <li><h3>금상첨화</h3></li>
+                <li><h3>마이동풍</h3></li>
+                <li><h3>전래동화</h3></li>
+            </ul>
+        </div>
+
+        <div class="problem2" style="display: none;">
+            <br>
+            <h2>어떤 사자성어가 숨겨져 있을까요?</h2>
+            <table width= 100% align ="center">
+                <tr>
+                    <td><img src="./죽마고우1.png" width= 100%/></td>
+                    <td><img src="./죽마고우3.png" width= 100%/></td>
+                    <td><img src="./죽마고우6.png" width= 100%/></td>
+                    <td><img src="./죽마고우5.png" width= 100%/></td>
+                    <td><img src="./죽마고우2.png" width= 100%/></td>
+                    <td><img src="./죽마고우4.png" width= 100%/></td>
+               </tr>
+            </table>
+            <ul id="answers">
+                <li><h3>마부위침</h3></li>
+                <li><h3>천상천하</h3></li>
+                <li><h3>죽마고우</h3></li>
+                <li><h3>고슴도치</h3></li>
+            </ul>
+        </div>
+
+        <div class="problem3" style="display: none;">
+            <br>
+            <h2>어떤 사자성어가 숨겨져 있을까요?</h2>
+            <table width= 100% align ="center">
+                <tr>
+                    <td><img src="./이구동성4.png" width= 100%/></td>
+                    <td><img src="./이구동성3.png" width= 100%/></td>
+                    <td><img src="./이구동성2.png" width= 100%/></td>
+                    <td><img src="./이구동성1.png" width= 100%/></td>
+                    <td><img src="./이구동성5.png" width= 100%/></td>
+                    <td><img src="./이구동성6.png" width= 100%/></td>
+               </tr>
+            </table>
+            <ul id="answers">
+                <li><h3>자동이체</h3></li>
+                <li><h3>이구동성</h3></li>
+                <li><h3>노동조합</h3></li>
+                <li><h3>사자성어</h3></li>
+            </ul>
+        </div>
+
+        <div class="problem4" style="display: none;">
+            <br>
+            <h2>어떤 사자성어가 숨겨져 있을까요?</h2>
+            <table width= 100% align ="center">
+                <tr>
+                    <td><img src="./유아독존6.png" width= 100%/></td>
+                    <td><img src="./유아독존5.png" width= 100%/></td>
+                    <td><img src="./유아독존1.png" width= 100%/></td>
+                    <td><img src="./유아독존2.png" width= 100%/></td>
+                    <td><img src="./유아독존4.png" width= 100%/></td>
+                    <td><img src="./유아독존3.png" width= 100%/></td>
+               </tr>
+            </table>
+            <ul id="answers">
+                <li><h3>독립운동</h3></li>
+                <li><h3>적자생존</h3></li>
+                <li><h3>어린이날</h3></li>
+                <li><h3>유아독존</h3></li>
+            </ul>
+        </div>
+
+        <div class="correct" style="display: none;">
+            <table align ="center">
+                <tr>
+                    <td><br><img id = "answer" width= 100%></td>
+                    <td>
+                        <p id="o" style="display: none;">정답입니다.</p>
+                        <p id="x" style="display: none;">틀렸습니다.</p>
+                        <p class = "nxt_btn">next</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    
+        <div class="score" style="display: none;">
+            <h2 id="score"></h2>
+        </div>
+
+        <div class="result" style="display: none;">
+            <br><h3>와우! 대단한데요~</h3>
+            <h3>다시 도전하실껀가요?</h3>
+            <h4 class="str_btn">start</h4>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
